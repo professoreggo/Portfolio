@@ -1,0 +1,110 @@
+{
+  "personal": {
+    "name": "Mostafa Tarek",
+    "title": "Software Engineer",
+    "email": "mostafa.tarek.abdeljawad@gmail.com",
+    "phone": "+20 100 008 8007",
+    "location": "New Cairo, Egypt",
+    "linkedin": "https://www.linkedin.com/in/mostafa-tarek-abdeljawad/",
+    "github": "https://github.com/professoreggo",
+    "summary": "Backend Software Engineer with hands-on experience building scalable RESTful APIs using Java EE, Spring Boot and ASP.NET. Skilled in designing database-driven applications with PostgreSQL and MySQL."
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Eventum Solutions",
+      "role": "Software Development Intern",
+      "period": "07/2025 – 09/2025",
+      "bullets": [
+        "Developed core frontend features using React, Tailwind CSS, AntD and built RESTful APIs with Java Spring Boot integrated with PostgreSQL in a Dockerized environment for an Engineer Onboarding System.",
+        "Delivered user stories on schedule within an Agile team, acting as Scrum Master for a team of 7 — leading sprint planning and daily stand-ups."
+      ]
+    },
+    {
+      "id": 2,
+      "company": "El Sewedy Electric",
+      "role": "Application Development Intern",
+      "period": "07/2024 – 08/2024",
+      "bullets": [
+        "Contributed to frontend and backend development of a Fleet Management System using ASP.NET.",
+        "Completed a Data Visualization program using Power BI, analyzing employee travel patterns and supermarket operations."
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Link-TSP",
+      "role": "Application Development Intern",
+      "period": "07/2023 – 09/2023",
+      "bullets": [
+        "Developed a CMS back-end using .NET Core and built Microservices for event logging and automated tasks.",
+        "Utilized Git for version control to collaborate effectively with team members."
+      ]
+    }
+  ],
+  "skills": [
+    { "id": 1, "name": "Java",         "category": "backend"  },
+    { "id": 2, "name": "Spring Boot",  "category": "backend"  },
+    { "id": 3, "name": "JavaEE",           "category": "backend"  },
+    { "id": 4, "name": "ASP.NET Core", "category": "backend"  },
+    { "id": 5, "name": "Python",       "category": "backend"  },
+    { "id": 6, "name": "Microservices","category": "backend"  },
+    { "id": 7, "name": "REST APIs",    "category": "backend"  },
+    { "id": 8, "name": "React",        "category": "frontend" },
+    { "id": 9, "name": "JavaScript",   "category": "frontend" },
+    { "id": 10,"name": "Tailwind CSS", "category": "frontend" },
+    { "id": 11,"name": "Redux",        "category": "frontend" },
+    { "id": 12,"name": "HTML5 / CSS3", "category": "frontend" },
+    { "id": 13,"name": "PostgreSQL",   "category": "database" },
+    { "id": 14,"name": "MySQL",        "category": "database" },
+    { "id": 15,"name": "SQL",          "category": "database" },
+    { "id": 16,"name": "Docker",       "category": "devops"   },
+    { "id": 17,"name": "Git",          "category": "devops"   },
+    { "id": 18,"name": "Linux / Unix", "category": "devops"   },
+    { "id": 19,"name": "OCI",          "category": "devops"   },
+    { "id": 20,"name": "Power BI",     "category": "other"    },
+    { "id": 20,"name": "APEX",     "category": "other"    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Engineer Onboarding System",
+      "description": "Full-stack onboarding platform built with React, Tailwind CSS, and Java Spring Boot. Dockerized PostgreSQL backend.",
+      "tags": ["React", "Spring Boot", "PostgreSQL", "Docker"],
+      "company": "Eventum Solutions"
+    },
+    {
+      "id": 2,
+      "title": "Fleet Management System",
+      "description": "Web application for fleet tracking using ASP.NET with SQL-powered forms and Power BI dashboards.",
+      "tags": ["ASP.NET", "SQL", "Power BI"],
+      "company": "El Sewedy Electric"
+    },
+    {
+      "id": 3,
+      "title": "CMS with Microservices",
+      "description": "Content Management System backend using .NET Core with event logging and task automation microservices.",
+      "tags": ["ASP.NET Core", "Microservices", "REST APIs"],
+      "company": "Link-TSP"
+    }
+  ],
+  "achievements": [
+    { "id": 1, "place": "3rd", "title": "WRC @Home Service Robot Challenge", "location": "China", "year": 2024 },
+    { "id": 2, "place": "2nd", "title": "RoboCup European Super Teams",       "location": "Croatia", "year": 2023 },
+    { "id": 3, "place": "2nd", "title": "IEEE Solve the 17 Hackathon",        "location": "Egypt", "year": 2025 }
+  ],
+  "courses & certifications": [
+    "Oracle Cloud Infrastructure Foundations",
+    "Oracle APEX Developer Professional",
+    "APEX: Empowering Low Code Apps with AI",
+    "Java Web Development / JEE / Jakarta EE",
+    "Oracle Cloud Infrastructure AI Foundations",
+    "Java SE 11 Developer 1Z0-819 OCP",
+    "Codeacademy: Learn React"
+  ],
+  "education": {
+    "degree": "B.Sc. in Computer Science and Information Technology",
+    "university": "Future University in Egypt",
+    "year": 2025,
+    "gpa": 3.25
+  }
+}
