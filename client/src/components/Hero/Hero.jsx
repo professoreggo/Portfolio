@@ -1,7 +1,7 @@
 import "./Hero.css";
 
 function Hero({ name, title, summary }) {
-  return(<section className="hero" id="hero">
+  return(<section className="hero" id="about">
     <div className="hero__content">
       <p className="hero__greeting">Hi, I'm</p>
 

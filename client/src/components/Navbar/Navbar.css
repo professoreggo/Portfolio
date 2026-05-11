@@ -23,7 +23,10 @@
 .navbar__brand {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #111827;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #4f46e5;
   text-decoration: none;
   letter-spacing: -0.3px;
 }
@@ -110,3 +113,21 @@
   .navbar__hamburger   { display: block; }
   .navbar__mobile-menu { display: block; }
 }   
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar__logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.navbar__logo:hover {
+  transform: scale(1.05);
+}
