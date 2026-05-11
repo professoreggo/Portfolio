@@ -7,12 +7,13 @@ function App() {
   return (
     <div>
       <Navbar />
-        <Hero
-          name={data.personal.name}
-          title={data.personal.title}
-          summary={data.personal.summary}
-        />  
-        <Skills skills={data.skills} />
+      <Hero
+        name={data.personal.name}
+        title={data.personal.title}
+        summary={data.personal.summary}
+      />
+      <Skills skills={data.skills} />
+      <Experience experience={data.experience} />
     </div>
   );
 }
