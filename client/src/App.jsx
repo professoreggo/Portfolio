@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Skills from "./components/Skills/Skills";
 import data from "./data/portfolio.json";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
           name={data.personal.name}
           title={data.personal.title}
           summary={data.personal.summary}
-        />
+        />  
+        <Skills skills={data.skills} />
     </div>
   );
 }

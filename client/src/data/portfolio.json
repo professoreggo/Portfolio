@@ -62,7 +62,7 @@
     { "id": 18,"name": "Linux / Unix", "category": "devops"   },
     { "id": 19,"name": "OCI",          "category": "devops"   },
     { "id": 20,"name": "Power BI",     "category": "other"    },
-    { "id": 20,"name": "APEX",     "category": "other"    }
+    { "id": 21,"name": "APEX",         "category": "other"    }
   ],
   "projects": [
     {
