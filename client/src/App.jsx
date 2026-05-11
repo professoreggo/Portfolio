@@ -1,12 +1,17 @@
-import Navbar from './components/Navbar/Navbar'
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import data from "./data/portfolio.json";
 
-
-
-function App(){
+function App() {
   return (
     <div>
-      <Navbar/>
-      <h1>Portfolio comming soon !</h1>
+      <Navbar />
+        <Hero
+          name={data.personal.name}
+          title={data.personal.title}
+          summary={data.personal.summary}
+        />
     </div>
-  )
-}export default App;
+  );
+}
+export default App;
