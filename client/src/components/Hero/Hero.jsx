@@ -12,8 +12,8 @@ function Hero({ name, title, summary }) {
       <p className="hero__summary">{summary}</p>
 
       <div className="hero__actions">
-        <a href="#projects" className="btn btn--primary">
-          View My Work
+        <a href="https://www.linkedin.com/in/mostafa-tarek-abdeljawad/" className="btn btn--primary">
+          LinkedIn
         </a>
         <a href="#contact" className="btn btn--secondary">
           Contact Me
