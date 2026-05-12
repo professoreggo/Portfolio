@@ -1,5 +1,5 @@
 import "./Hero.css";
-import Typewriter from "./TypeWriter";
+import Typewriter from "./Typewriter";
 
 function Hero({ name, title, summary, skills }) {
   return(<section className="hero" id="about">

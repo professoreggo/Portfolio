@@ -1,4 +1,4 @@
-import './SkillBadge.css'
+import './Skillbadge.css'
 
 function SkillBadge({ name, category }) {
   return (

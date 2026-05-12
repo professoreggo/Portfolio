@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import SkillBadge from './SkillBadge'
+import SkillBadge from './Skillbadge'
 import './Skills.css'
 
 const Categories = ['all', 'backend', 'frontend', 'database', 'devops', 'other']
