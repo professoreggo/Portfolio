@@ -4,6 +4,7 @@ import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import Achievements from './components/Achievements/Achievement'
 import data from "./data/portfolio.json";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       />
       <Experience experience={data.experience} />
       <Projects projects={data.projects} />
+      <Achievements achievements={data.achievements} />
       <Skills skills={data.skills} />
       <Contact email={data.personal.email} />
     </div>

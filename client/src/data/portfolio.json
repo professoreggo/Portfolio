@@ -70,9 +70,9 @@
     { "id": 16,"name": "Docker",       "category": "devops"   },
     { "id": 17,"name": "Git",          "category": "devops"   },
     { "id": 18,"name": "Linux / Unix", "category": "devops"   },
-    { "id": 19,"name": "OCI",          "category": "devops"   },
+    { "id": 19,"name": "Oracle Cloud Infrastructure",          "category": "devops"   },
     { "id": 20,"name": "Power BI",     "category": "other"    },
-    { "id": 21,"name": "APEX",         "category": "other"    }
+    { "id": 21,"name": "Oracle Application Express [APEX]",         "category": "other"    }
   ],
   "projects": [
     {
@@ -99,9 +99,9 @@
     
   ],
   "achievements": [
-    { "id": 1, "place": "3rd", "title": "WRC @Home Service Robot Challenge", "location": "China", "year": 2024 },
-    { "id": 2, "place": "2nd", "title": "RoboCup European Super Teams",       "location": "Croatia", "year": 2023 },
-    { "id": 3, "place": "2nd", "title": "IEEE Solve the 17 Hackathon",        "location": "Egypt", "year": 2025 }
+    { "id": 1, "place": "3rd", "title": "WRC @Home Service Robot Challenge", "location": "China", "year": 2024 ,"image": "/assets/images/wrc.jpg" , "description": "Achieved 3rd place in an international robotics competition focused on autonomous service robots."},
+    { "id": 2, "place": "2nd", "title": "RoboCup European Super Teams",       "location": "Croatia", "year": 2023 ,"image": "/assets/images/rcj.png" , "description": "Secured 2nd place in the Super Teams category; also awarded Best Technical Description Paper."},
+    { "id": 3, "place": "2nd", "title": "IEEE Solve the 17 Hackathon",        "location": "Egypt", "year": 2025 ,"image": "/assets/images/ieee.jpeg" , "description": "Developed a web application using Next.js to help illiterate individuals learn Arabic letters and words through a simple user interface and voice commands, contributing to the United Nations’ 17 Sustainable Development Goals (SDGs) initiative and earning 2nd place."}
   ],
   "courses & certifications": [
     "Oracle Cloud Infrastructure Foundations",
