@@ -65,6 +65,18 @@ Deployed on Vercel.
 Environment variables are configured in the Vercel dashboard.
 
 ---
+## Bonus [next-step]
+
+The next phase of this project involves migrating from a static data file to a real backend:
+
+Build a Node.js + Express server inside server/
+Expose portfolio data via REST API endpoints (/api/projects, /api/skills, /api/experience, etc.)
+Remove portfolio.json from the frontend and replace all data imports with fetch() calls to the API
+Handle loading and error states in each component
+Wire the contact form through the Express backend using Nodemailer instead of EmailJS
+Deploy the backend separately and connect it to the frontend via environment variables
+
+---
 
 **Mostafa Tarek** — [mostafa.tarek.abdeljawad@gmail.com](mailto:mostafa.tarek.abdeljawad@gmail.com)  
 LinkedIn — [linkedin.com/in/mostafa-tarek-abdeljawad](https://www.linkedin.com/in/mostafa-tarek-abdeljawad)
