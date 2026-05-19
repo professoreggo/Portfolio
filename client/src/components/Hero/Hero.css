@@ -2,7 +2,8 @@
   min-height: 75vh;
   display: flex;
   align-items: center;
-
+  position: relative;
+  overflow: hidden;
   max-width: 1200px;
   margin: 100px auto;
 
@@ -13,14 +14,36 @@
   background:
     radial-gradient(
       circle at top left,
-      rgba(79, 70, 229, 0.15),
-      transparent 60%
+      rgba(79, 70, 229, 0.20),
+      transparent 55%
     ),
     var(--color-bg-hero);
 
   border: 1px solid var(--color-border);
 
   box-shadow: var(--shadow-card);
+}
+
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background: radial-gradient(
+    900px circle at var(--mouse-x) var(--mouse-y),
+    rgba(79, 70, 229, 0.20),
+    transparent 55%
+  );
+
+  opacity: 0;
+  transition: opacity 1.0s ease;
+  filter: blur(40px);
+}
+
+.hero:hover::before {
+  opacity: 1;
 }
 
 .hero__content {

@@ -7,7 +7,7 @@ function Experience({ experience }) {
       <div className="experience__container">
         <h2 className="section__title">Experience</h2>
         <div className="experience__list">
-          {experience.map((job) => (
+          {experience.map((job,index) => (
             <ExperienceItem
               key={job.id}
               company={job.company}
@@ -16,6 +16,8 @@ function Experience({ experience }) {
               bullets={job.bullets}
               logo={job.logo}
               image={job.image}
+              index={index}
+
             />
           ))}
         </div>

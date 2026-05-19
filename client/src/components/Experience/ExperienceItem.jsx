@@ -1,9 +1,16 @@
+import useScrollReveal from '../../hooks/useScrollReveal'
 import './ExperienceItem.css'
 
-function ExperienceItem({ company, role, period, bullets, logo, image }) {
-  return (
-    <div className="experience-item">
+function ExperienceItem({ company, role, period, bullets, logo, image, index }) {
+  const ref = useScrollReveal({ threshold: 0.25 })
 
+  const delayClass = index < 5 ? `reveal--delay-${index + 1}` : ''
+
+  return (
+    <div
+      className={`experience-item reveal ${delayClass}`}
+      ref={ref}
+    >
       <div className="experience-item__body">
 
         <div className="experience-item__header">
@@ -24,8 +31,8 @@ function ExperienceItem({ company, role, period, bullets, logo, image }) {
         </div>
 
         <ul className="experience-item__bullets">
-          {bullets.map((bullet, index) => (
-            <li key={index}>{bullet}</li>
+          {bullets.map((bullet, i) => (
+            <li key={i}>{bullet}</li>
           ))}
         </ul>
 

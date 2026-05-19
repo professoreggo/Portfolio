@@ -9,7 +9,7 @@ function Achievements({ achievements }) {
         <h2 className="section__title">Achievements</h2>
 
         <div className="achievements__list">
-          {achievements.map(achievement => (
+          {achievements.map((achievement, index) => (
             <AchievementCard
               key={achievement.id}
               place={achievement.place}
@@ -17,11 +17,10 @@ function Achievements({ achievements }) {
               location={achievement.location}
               year={achievement.year}
               image={achievement.image}
-              description={achievement.description}
+              index={index}
             />
           ))}
         </div>
-        
 
       </div>
     </section>

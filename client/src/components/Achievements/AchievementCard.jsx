@@ -1,9 +1,16 @@
+import useScrollReveal from '../../hooks/useScrollReveal'
 import './AchievementCard.css'
 
-function AchievementCard({ place, title, location, year, image, description }) {
-  return (
-    <div className="achievement-card">
+function AchievementCard({ place, title, location, year, image, description, index }) {
+  const ref = useScrollReveal({ threshold: 0.25 })
 
+  const delayClass = index < 5 ? `reveal--delay-${index + 1}` : ''
+
+  return (
+    <div
+      className={`achievement-card reveal ${delayClass}`}
+      ref={ref}
+    >
       {image && (
         <div className="achievement-card__image-wrapper">
           <img
@@ -15,7 +22,7 @@ function AchievementCard({ place, title, location, year, image, description }) {
       )}
 
       <div className="achievement-card__body">
-        <h3 className="achievement-card__title">{title + " 🏆 "+place+" Place "}</h3>
+        <h3 className="achievement-card__title">{title + " 🏆 " + place + " Place "}</h3>
         <h3 className="achievement-card__description">{description}</h3>
         <div className="achievement-card__meta">
           <span className="achievement-card__location">
@@ -23,7 +30,6 @@ function AchievementCard({ place, title, location, year, image, description }) {
           </span>
           <span className="achievement-card__year">{year}</span>
         </div>
-        
       </div>
 
     </div>
